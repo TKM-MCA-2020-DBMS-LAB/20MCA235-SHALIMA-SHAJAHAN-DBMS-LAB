@@ -18,7 +18,7 @@ doj date NOT NULL,
 FOREIGN KEY (dept_no) REFERENCES department(dept_no)
  );
 
-//1.inserting 5 rows
+// 1. inserting 5 rows
 insert into department(dept_no, dept_name, location) values (712,'A','First-floor');
 insert into department(dept_no, dept_name, location) values (133,'B','Second-floor');
 insert into department(dept_no, dept_name, location) values (112,'c','Third-floor');
